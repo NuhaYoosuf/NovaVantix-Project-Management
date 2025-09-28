@@ -262,53 +262,6 @@ NovaVantix-Project-Management/
 └── README.md                  # This file
 ```
 
-## 🧪 Testing
-
-### Backend Testing
-```bash
-cd backend
-pytest test_tasks.py -v
-```
-
-### Manual Testing Checklist
-- [ ] User authentication (login/logout)
-- [ ] Project creation and management
-- [ ] Task creation and status updates
-- [ ] Role-based access control
-- [ ] Search and filtering functionality
-- [ ] Optimistic locking (edit same task from two browsers)
-- [ ] Responsive design on different screen sizes
-
-## 📱 Screenshots
-
-### Login Page
-Clean, professional login interface with company branding and purple gradient theme.
-
-### Dashboard
-Modern project overview with search functionality and intuitive navigation.
-
-### Project Detail
-Comprehensive task management with status badges, filtering, and real-time updates.
-
-### Task Creation
-User-friendly forms with proper validation and error handling.
-
-
-
-
-## 🤝 Contributing
-
-This is an internship project for NovaVantix. For any improvements or bug fixes:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Create a Pull Request
-
-## 📄 License
-
-This project is created as an internship submission for NovaVantix and is intended for educational and evaluation purposes.
 
 ## 👨‍💻 Developer
 

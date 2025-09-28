@@ -3,19 +3,6 @@
 > **Full-Stack Internship Project by Nuha Yoosuf**  
 > A comprehensive project management system built with React, TypeScript, FastAPI, and MySQL
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Installation & Setup](#installation--setup)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Database Schema](#database-schema)
-- [Authentication](#authentication)
-- [Project Structure](#project-structure)
-- [Testing](#testing)
-- [Screenshots](#screenshots)
 
 ## 🎯 Overview
 
@@ -90,7 +77,7 @@ Before running this application, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/NuhaYoosuf/NovaVantix-Project-Management.git
 cd NovaVantix-Project-Management
 ```
 
@@ -187,49 +174,6 @@ After seeding the database, use these credentials to access the system:
 2. **Update Status**: Click task → Change status (Todo/In Progress/Done)
 3. **Task Creation**: Create new tasks within assigned projects
 
-## 📡 API Documentation
-
-### Authentication Endpoints
-```
-POST /auth/login          # User login (returns JWT token)
-```
-
-### Project Endpoints
-```
-GET  /projects           # List projects (with search: ?q=term)
-POST /projects           # Create project (admin only)
-GET  /projects/{id}      # Get project details
-```
-
-### Task Endpoints
-```
-GET    /projects/{id}/tasks    # List project tasks (?status=&assignee=)
-POST   /projects/{id}/tasks    # Create task
-PATCH  /tasks/{id}             # Update task (with optimistic locking)
-DELETE /tasks/{id}             # Delete task
-```
-
-### Utility Endpoints
-```
-GET /health              # Health check
-```
-
-### API Response Format
-```json
-{
-  "success": true,
-  "data": { ... },
-  "message": "Operation successful"
-}
-```
-
-### Error Response Format
-```json
-{
-  "detail": "Error description",
-  "status_code": 400
-}
-```
 
 ## 🗄 Database Schema
 
